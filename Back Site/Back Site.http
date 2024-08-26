@@ -1,6 +1,0 @@
-@Back_Site_HostAddress = http://localhost:5176
-
-GET {{Back_Site_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
