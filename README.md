@@ -1,6 +1,6 @@
 Set up for Back-End local:
 
-../EC/{name}.json
+../{name}.json
 {
   "ConnectionStrings": {
     "Default": "..."
@@ -19,4 +19,4 @@ Set up for Back-End local:
   "LogFilePath": "Logs"
 }
 
-Create "Logs" at ../EC/Logs or name that match "LogFilePath"
+Create "Logs" at ../Logs or name that match "LogFilePath"
