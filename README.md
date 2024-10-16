@@ -1,7 +1,8 @@
 ## Set up for Back-End local:
 
 ../{name}.json
-\```json
+
+```json
 {
   "ConnectionStrings": {
     "Default": "..."
@@ -19,6 +20,6 @@
   },
   "LogFilePath": "Logs"
 }
-\```
+```
 
 Create "Logs" at ../Logs or name that match "LogFilePath"
