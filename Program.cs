@@ -21,7 +21,8 @@ namespace EC
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
-            builder.Configuration.AddJsonFile("gitignore.json", optional: false, reloadOnChange: true);
+            builder.Configuration.SetBasePath(Directory.GetCurrentDirectory());
+            builder.Configuration.AddJsonFile("Configs/gitignore.json", optional: false, reloadOnChange: true);
 
             // Add DB (Method 1)
             //builder.Services.AddDbContext<DataContext>();
