@@ -1,6 +1,6 @@
 ## Set up for Back-End local:
 
-../{name}.json
+Location ../{name}.json
 
 ```json
 {
@@ -22,4 +22,4 @@
 }
 ```
 
-Create "Logs" at ../Logs or name that match "LogFilePath"
+Create a "Logs" folder at ../Logs or a name that match "LogFilePath"
