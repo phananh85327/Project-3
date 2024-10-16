@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}",
+            "runtimeExecutable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe", // Please change if chrome local path is different
+            "runtimeArgs": [
+                "--disable-web-security",
+                "--user-data-dir=C:\\Path\\To\\Chrome\\UserData"
+            ]
+        },
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Launch Edge against localhost",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}",
+            "runtimeExecutable": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe", // Please change if edge local path is different
+            "runtimeArgs": [
+                "--disable-web-security",
+                "--user-data-dir=C:\\Path\\To\\Edge\\UserData"
+            ]
+        }
+    ]
+}
