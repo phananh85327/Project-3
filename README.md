@@ -1,4 +1,4 @@
-## Set up for Back-End local:
+## Set up config .env file and logs folder for local:
 
 Location ../{name}.json
 
@@ -16,10 +16,14 @@ Location ../{name}.json
   "Email": {
     "Name": "...",
     "Address": "...",
-    "Password": "google create app password for gmail"
+    "Password": "Google create app password for Gmail"
   },
   "LogFilePath": "Logs"
 }
 ```
 
-Create a "Logs" folder at ../Logs or a name that match "LogFilePath"
+Create a "Logs" folder at ../Logs or a name that matches "LogFilePath"
+
+## Set up DB:
+
+Use Library.bak and Library.sql included in the repo
