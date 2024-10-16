@@ -1,0 +1,17 @@
+{
+  "ConnectionStrings": {
+    "Default": "Data Source=DESKTOP-S7HIBL3\\SQLEXPRESS;database=LibraryManagement;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False"
+  },
+  "Client": {
+    "URL": "http://localhost:3000"
+  },
+  "JWT": {
+    "SecretKey": "High-Secured-Password-That-I-Will-Not-Hide-When-Push-To-Repository"
+  },
+  "Email": {
+    "Name": "Phan Anh",
+    "Address": "phananh85327@gmail.com",
+    "Password": "hbtp ifvm eceo fpjf"
+  },
+  "LogFilePath": "Logs"
+}
