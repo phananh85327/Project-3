@@ -1,6 +1,7 @@
-Set up for Back-End local:
+## Set up for Back-End local:
 
 ../{name}.json
+\```json
 {
   "ConnectionStrings": {
     "Default": "..."
@@ -18,5 +19,6 @@ Set up for Back-End local:
   },
   "LogFilePath": "Logs"
 }
+\```
 
 Create "Logs" at ../Logs or name that match "LogFilePath"
