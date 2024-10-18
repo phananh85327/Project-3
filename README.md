@@ -1,6 +1,6 @@
 ## Set up config .env file and logs folder for local:
 
-Location ../{name}.json
+Location ../Configs/gitignore.json
 
 ```json
 {
