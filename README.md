@@ -1,6 +1,8 @@
-Set up for Back-End local:
+## Set up config .env file and logs folder for local:
 
-../EC/{name}.json
+Location ../Configs/gitignore.json
+
+```json
 {
   "ConnectionStrings": {
     "Default": "..."
@@ -14,9 +16,14 @@ Set up for Back-End local:
   "Email": {
     "Name": "...",
     "Address": "...",
-    "Password": "google create app password for gmail"
+    "Password": "Google create app password for Gmail"
   },
   "LogFilePath": "Logs"
 }
+```
 
-Create "Logs" at ../EC/Logs or name that match "LogFilePath"
+Create a "Logs" folder at ../Logs or a name that matches "LogFilePath"
+
+## Set up DB:
+
+Use Library.bak and Library.sql included in the repo
